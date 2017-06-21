@@ -1,0 +1,101 @@
+h1{
+	text-align: center;
+	font-size: 85px;
+	font-family: "Arial";
+	color: #193366;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	line-height: 10px;
+
+}
+
+.button1{
+	display: block;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+#mainButton{
+height: 40px;
+width: 150px;
+font-size: 20px;
+font-family: "Arial";
+border: solid black 2px;
+border-radius: 10px;
+}
+
+#outline{
+	border: solid black 2px;
+	border-radius: 20px;
+	height:940px;
+	width: 800px;
+	margin:0 auto;
+	background-color: #e6f2ff;
+	box-sizing: border-box;
+}
+
+#workspace{
+	border:solid black 2px;
+	height: 700px;
+	width: 700px;
+	border-radius: 7px;
+	margin: 0 auto;
+background-color: white;
+}
+
+.highlight{
+    background-color: #8C8C8C; 
+}
+
+.buttonhide{
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.hidden{
+	height: 40px;
+	width: 70px;
+border: solid black 2px;
+border-radius: 10px;
+}
+
+/*.hidden1{
+	background-color: red;
+} commented out because useless, but was written for testing purposes*/
+
+/*.box{
+	border: solid black 1px;
+	width: 10px;
+	height: 10px;
+	box-sizing: border-box;
+	float: left;
+} */
+/*the .box is commented out because if i leave it, it creates a very messy grid and i created it for testingpurposes*/
+
+.row{
+	border: solid gray 1px;
+	/*display: inline; - if i activate this to get the divs in a row, it messes up and only the border shows up and the height 
+	and width mess up...I am not sure how to fix this yet, inline-block works though*/
+	/*width: 500px;*/
+	position: relative;
+	display: inline-block;
+	/*height: 30px;*/
+	/*setting the height here solves the issue of the divs having no height when responding to the prompt of 1 - 50*/
+	/*vertical-align: top; this deletes the white space between divs*/
+	float: left;
+	box-sizing: border-box;
+}
+
+.column{
+	display: inline-block;
+	border: solid gray 1px;
+	float: left;
+	box-sizing: border-box;
+	/*background-color: black;*/
+}
+
+/*.highlight-box{
+	background-color: black;
+} dont know what this was for.*/
